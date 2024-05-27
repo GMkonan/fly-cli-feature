@@ -1,12 +1,17 @@
 {
-    "color_and_hello": {
+    "fly_version_specific": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
+            "flyctl": {
+                "version": "0.2.60"
+            }
+        }
+    },
+    "fly_latest_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "flyctl": {
+                "version": "latest"
             }
         }
     }
